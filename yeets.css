@@ -1,0 +1,215 @@
+*{
+    margin: auto;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+.banner {
+    width: auto;
+    height: 20vh;
+}
+
+body {
+    background-image: linear-gradient(red, pink, white);
+    background-repeat: repeat-x;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    margin-top: 7vh;
+}
+
+.inputText {
+    margin-top: 5vh;
+    height: 4vh;
+    width: 15vh;
+    font-size: 3vh;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 0;
+    outline:0;
+    margin-right: 0;
+    transition: width 1s;
+}
+
+.inputText::-webkit-outer-spin-button,
+.inputText::-webkit-inner-spin-button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputTextAnim:hover, .inputTextAnim:focus {
+    width: 30vh;
+}
+
+.find {
+    margin-top: 6vh;
+    font-size: 4vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    transition: background-color 0.5s, padding-left 1s, padding-right 1s, color 0.5s;
+}
+
+.download {
+    margin-top: 1vh;
+    font-size: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2vh;
+    transition: background-color 0.5s, padding-left 1s, padding-right 1s, color 0.5s;
+}
+
+.generate {
+    font-size: 3vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 20px;
+    margin-bottom: 7vh;
+    margin-left: 0;
+    margin-right: 0;
+    transition: background-color 0.5s, padding-left 1s, padding-right 1s, color 0.5s;
+}
+
+.generate:hover,
+.download:hover,
+.find:hover{
+    background-color: rgb(202, 51, 77);
+    padding-left: 10vh;
+    padding-right: 10vh;
+    color: white;
+    outline:0;
+}
+
+.mDiv {
+    height: 50vh;
+    border-radius: 30px;
+    background-color: rgba(56, 56, 56, 0.5);
+    text-align: center;
+    overflow: scroll;
+    margin-bottom: 1vh;
+}
+
+.hDiv {
+    height: 26vh;
+    border-radius: 30px;
+    background-color: rgba(56, 56, 56, 0.5);
+    text-align: center;
+    overflow: scroll;
+}
+
+.hDiv div p {
+    position: relative;
+    margin-left: 10;
+    font-family: Arial;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.hScroll {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 12vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow: scroll;
+}
+
+.hDiv h3 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+h2 {
+    margin: auto;
+    font-size: 15;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    height: 50;
+    width: 50;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin-bottom: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.hScroll::-webkit-scrollbar,
+.mDiv::-webkit-scrollbar,
+.hDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.aColor {
+    transition: color 0.2s, opacity 0.2s;
+}
+
+.aColor:hover{
+    color: yellow;
+    opacity: 0.3;
+}
+
+
+.normalSize {
+    margin: 2px;
+    border-radius: 10px;
+    height: 120px;
+    width: 120px;
+    transition: opacity 0.2s, padding 0.3s, height 0.3s, width 0.3s, border 2s;
+}
+.normalSize:hover,
+.normalSize:Focus {
+    border-radius: 25px;
+    padding: 10.2px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    opacity: 0.7;
+}
+.normalSize:active {
+    border-radius: 60px;
+    background-color: green;
+    padding: 35px;
+    height: 50px;
+    width: 50px;
+}
+.mobileSize {
+    margin: 2px;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    transition: opacity 0.2s, padding 0.3s, height 0.3s, width 0.3s, border 2s;
+}
+.mobileSize:hover,
+.mobileSize:Focus {
+    border-radius: 25px;
+    padding: 5.2px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    opacity: 0.7;
+}
+.mobileSize:active {
+    border-radius: 60px;
+    background-color: green;
+    padding: px;
+    height: 25px;
+    width: 25px;
+}

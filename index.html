@@ -1,0 +1,45 @@
+<!--the hell do you think am i? an idiot? i coded this i only use free domain to put this html to the internet -->  
+<html>
+    <head>
+        <link rel="stylesheet" href="yeets.css?version=5">
+        <link rel="icon" href="pics/logo.png?version=5">
+        <meta id="mobile" name="viewport">
+        <title>Nhentai Code Direct</title>
+    </head>
+
+    <body id="body">
+        
+        <img id="banner" class="banner" src="pics/banner.png" alt="banner :D">
+        <div class="mDiv" id="mainDiv">
+            <input class="inputText inputTextAnim" onfocusin="fos=true;" onfocusout="fos=false" type="number" id="code" placeholder="code here"><br>
+            <h2 id="random"></h2>
+            <button class="find" onclick="submit();this.blur()">Find</button><br>
+            <button class="generate" onclick="randomGen();this.blur()">Random Code?</button><br>
+            <p><b>Put any codes in it and it will direct you to the manga/doujin/whatever the hell it is
+                you call it. tl;dr it autosearches the code from nhentai.net. You can even 
+                download the code of the last code you visit because it'll save it to the History
+                down below. The history is only temporary reloading the page erases it all. Also
+                feel free to share this with your fellow weebs!</b><br><br>below are the random picks i searched for no reason so expect
+                most of them is not fully english translated
+            </p>
+            <!-- it's empty an empty element but it will generate automatically by the script -->
+            <!-- cuz im tired putting the same code and changing only the numbers like what the fuck im wasting time -->
+            <span id="ahegaoPics"></span>
+
+            <a onclick="changeColor()" title="Created by Ichimaki-Chan">version 5.0</a><br>
+            <a onclick="openAhegao(0)" title="nhentai"><img class="logo" src=pics/logo.png alt="nhentai"></a>
+        </div>
+
+        <div class="hDiv" id="historyDiv">
+            <h3>History</h3>
+            <div class="hScroll" id="historyScroll">
+                <p id="historyText"></p>
+            </div><br>
+            <h4>Download the history?</h4>
+            <button class="download" onclick="dl();this.blur">Download History</button>
+        </div>
+
+    </body>
+
+    <script type="text/javascript" src="GetSumOfIt.js?version=5"></script>
+</html>
