@@ -252,7 +252,7 @@ function changeColor() {
 
 //random code generator
 function randomGen(){
-    num = Math.floor(Math.random() * 315950) + 1;
+    var num = Math.floor(Math.random() * 400000) + 1;
     codeText.value = num;
     submit();
 }
